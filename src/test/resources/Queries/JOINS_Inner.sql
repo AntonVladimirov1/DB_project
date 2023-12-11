@@ -13,3 +13,6 @@
     order by DEPARTMENT_NAME;
 
 
+    SELECT e.first_name, e.last_name, p.project_id
+    FROM employees e JOIN employees_projects p ON e.id = p.employee_id
+    ORDER BY e.last_name DESC;
