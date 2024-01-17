@@ -39,7 +39,6 @@ public class DB_Utility {
         String url      = "jdbc:oracle:thin:@ 54.82.83.115 :1521:XE";
         String username = "hr" ;
         String password = "hr" ;
-
         createConnection(url, username, password);
     }
 
@@ -109,7 +108,6 @@ public class DB_Utility {
         return rowCount ;
     }
 
-
     /**
      * find out the column count
      * @return column count of this ResultSet
@@ -126,8 +124,6 @@ public class DB_Utility {
         }
         return columnCount ;
     }
-
-
 
     /**
      * // Get all the Column names into a list object
@@ -176,7 +172,6 @@ public class DB_Utility {
         return rowDataAsLst ;
     }
 
-
     /**
      * getting the cell value according to row num and column index
      * @param rowNum  row number to get the data from
@@ -220,7 +215,6 @@ public class DB_Utility {
         }
         return cellValue ;
     }
-
 
     /**
      * Get First Cell Value at First row First Column
